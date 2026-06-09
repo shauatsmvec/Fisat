@@ -4,24 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Basic HTML Page">
+    <meta name="description" content="Resume page for Shahid Khan">
 
-    <title>My Web Page</title>
+    <title>Shahid Khan | Resume</title>
 
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        header {
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #1a1a1a;
+        }
+
+        .subtitle {
+            margin-top: 8px;
+            color: #555;
+        }
+
+        section {
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #222;
+            border-bottom: 2px solid #e2e2e2;
+            padding-bottom: 6px;
+        }
+
+        a.resume-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 16px;
+            background: #007acc;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        a.resume-link:hover {
+            background: #005fa3;
+        }
     </style>
 
     <script src="script.js" defer></script>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>Shahid Khan</h1>
+            <p class="subtitle">Web Developer / UI Designer / Resume Portfolio</p>
+            <p>Contact: shahid.khan@example.com | +91 98765 43210</p>
+        </header>
 
-    <h1>Hello World</h1>
-    <p>This is my first webpage.</p>
+        <section>
+            <h2>Summary</h2>
+            <p>Experienced web developer with a strong background in HTML, CSS, JavaScript, and responsive design. Passionate about creating polished, user-friendly websites and applications.</p>
+        </section>
 
+        <section>
+            <h2>Experience</h2>
+            <p><strong>Frontend Developer</strong> — Example Company</p>
+            <p>Designed and implemented responsive website interfaces, improved page performance, and collaborated closely with designers and backend developers.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science in Computer Science</strong> — University Name</p>
+            <p>Graduated: 2024</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 / CSS3 / JavaScript</li>
+                <li>Responsive design and layout</li>
+                <li>Git / version control</li>
+                <li>UI/UX principles</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Download Resume</h2>
+            <p>Click the button below to open or download the full resume PDF.</p>
+            <a class="resume-link" href="file:///C:/Users/lenovo/Desktop/important%20documents/shahid_khan_resume.pdf" target="_blank" rel="noopener noreferrer">Open Full Resume</a>
+        </section>
+    </div>
 </body>
 
 </html>
